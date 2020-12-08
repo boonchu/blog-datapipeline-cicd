@@ -1,9 +1,9 @@
 variables:
   # Azure DevOps settings
-  AzureServiceConnectionId: 'blog-datapipelineprod-servcon'
+  AzureServiceConnectionId: 'CICD-service-connection'
   # Change environment variables used in bash scripts with your own
-  RG: 'blog-datapipelineprod-rg'
-  SUB: '<<your subscription>>'
+  RG: 'linux-vm-rg'
+  SUB: '2fc77d44-a037-4e7b-822c-d51f8788b873'
   AKV: 'blogdatapipelineakv123' # unique value
   STOR: 'blogdatapipelinestor123' # unique value
   COSMOSDBNAME: 'blog-datapipeline-cosmos123' #unique value
